@@ -1,60 +1,101 @@
-/* style.css - Custom styles for Football T-Shirt Store */
+/* style.css - Colorful styles for Football T-Shirt Store */
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f3f4f6;
-    color: #1f2937;
-  }
-  
-  header, nav, footer {
-    background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  }
-  
-  nav a {
-    margin: 0 1rem;
-    color: #2563eb;
-    text-decoration: none;
-    font-weight: 500;
-  }
-  
-  nav a:hover,
-  nav a:focus {
-    text-decoration: underline;
-    color: #1d4ed8;
-  }
-  
-  button {
-    transition: background-color 0.2s ease;
-  }
-  
-  button:hover {
-    opacity: 0.95;
-  }
-  
-  h1, h2 {
-    color: #111827;
-  }
-  
-  form input,
-  form textarea {
-    border: 1px solid #d1d5db;
-    padding: 0.5rem;
-    border-radius: 0.375rem;
-  }
-  
-  form input:focus,
-  form textarea:focus {
-    outline: none;
-    border-color: #2563eb;
-    box-shadow: 0 0 0 1px #2563eb;
-  }
-  
-  footer {
-    padding: 1rem;
-    text-align: center;
-    font-size: 0.875rem;
-    color: #6b7280;
-    margin-top: 2rem;
-  }
-  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #f0f9ff, #e0f2fe);
+  color: #1e293b;
+}
+
+header {
+  background: linear-gradient(to right, #1e3a8a, #3b82f6);
+  color: white;
+  padding-bottom: 1rem;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: #fbbf24;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #facc15;
+  text-decoration: underline;
+}
+
+main {
+  background-color: #f9fafb;
+}
+
+h1, h2 {
+  color: #111827;
+}
+
+.card {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.13);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card button {
+  background: linear-gradient(to right, #16a34a, #22c55e);
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition: background 0.3s ease;
+}
+
+.card button:hover {
+  background: linear-gradient(to right, #15803d, #16a34a);
+}
+
+form input,
+form textarea {
+  border: 2px solid #dbeafe;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #60a5fa;
+  box-shadow: 0 0 0 3px #93c5fd;
+}
+
+button[type="submit"] {
+  background: linear-gradient(to right, #3b82f6, #60a5fa);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+button[type="submit"]:hover {
+  background: linear-gradient(to right, #2563eb, #3b82f6);
+}
+
+footer {
+  background: #1e3a8a;
+  color: #dbeafe;
+  padding: 1rem;
+  font-size: 0.875rem;
+  margin-top: 2rem;
+}
+
+/* Additional utility */
+.text-glow {
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+}
