@@ -1,0 +1,60 @@
+/* style.css - Custom styles for Football T-Shirt Store */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f4f6;
+    color: #1f2937;
+  }
+  
+  header, nav, footer {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  nav a {
+    margin: 0 1rem;
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  nav a:hover,
+  nav a:focus {
+    text-decoration: underline;
+    color: #1d4ed8;
+  }
+  
+  button {
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    opacity: 0.95;
+  }
+  
+  h1, h2 {
+    color: #111827;
+  }
+  
+  form input,
+  form textarea {
+    border: 1px solid #d1d5db;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+  }
+  
+  form input:focus,
+  form textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 1px #2563eb;
+  }
+  
+  footer {
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-top: 2rem;
+  }
+  
